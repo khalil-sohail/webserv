@@ -9,7 +9,7 @@ A lightweight HTTP server written in **C++98**, replicating key features of mode
 
 ---
 
-## ⚙️ Features
+## Features
 
 - HTTP 1.1 compliant server
 - Supports `GET`, `POST`, `DELETE`
@@ -25,7 +25,7 @@ A lightweight HTTP server written in **C++98**, replicating key features of mode
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```bash
 .
@@ -50,28 +50,28 @@ A lightweight HTTP server written in **C++98**, replicating key features of mode
 
 ---
 
-## 🔧 Getting Started
+## Getting Started
 
-### ✅ Prerequisites
+### Prerequisites
 
 - C++98 compatible compiler (e.g. `g++`)
 - `make`
 - UNIX-based system (Linux/macOS)
 - `python3`, `php-cgi`, `bash` (for CGI execution)
 
-### 🛠️ Build
+### Build
 
 ```bash
 make
 ```
 
-### 🛠️ run
+### run
 
 ```bash
 ./webserv confi.conf
 ```
 
-### 🧾 Configuration Example
+### Configuration Example
 
 ```bash
 server {
@@ -100,30 +100,30 @@ server {
 }
 ```
 
-### 🧪 Testing
+### Testing
 You can test the server using:
 
 - Browser: Go to http://localhost:8080/
 - URL/Postman: For method-specific requests like DELETE, POST, etc.
 - CGI Scripts: Place .py, .php, or .sh scripts under /www/bin/cgi/
 
-### 📁 Example Content
+### Example Content
 - www/static/html/index.html: Default homepage
 - www/static/assets/: Images, videos, and other assets
 - www/bin/cgi/: Sample CGI scripts (Python, PHP, ...)
 - www/uploads/: Endpoint to test file uploads
 
-### 🧠 Learnings
+### Learnings
 
 - Mastered socket programming and epoll-based multiplexing
 - Built a full HTTP parser and response system from scratch
 - Parsed custom .conf files without third-party parsers
 - Hands-on with real-world features like CGI and uploads
 
-### 👨‍💻 Authors
+### Authors
 
 - [ERROR244](https://github.com/ERROR244)
 - [nabilaadou](https://github.com/nabilaadou)
 
-### 📜 License
+### License
 MIT — Free to use, modify, and share.
